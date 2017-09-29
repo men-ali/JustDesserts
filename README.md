@@ -1,7 +1,7 @@
 ## We Call it _"Closing The Sugar Gap!"_
 
 
-### Team, Name and Project Name
+### Team Name and Project Name
 - Team WiSE 
 - JustDesserts.
 - Our catch phrase is ‘Closing the sugar gap’
