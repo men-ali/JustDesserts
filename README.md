@@ -23,7 +23,7 @@ To help people with dietary needs find desserts within their neighborhood.  For 
 
 - It is different because it is focused primarily on desserts and informing people about different kinds of desserts that are out there and suitable for their diet.
 
-### User-types your application
+### User-types of Application
 - Person using the application is diabetic and loves desserts, but has a restriction on the amount of sugar they can intake. They would be able to use the application and find sugar-free desserts, as well as comment on whether or not it tastes good. 
 
 - A person can post about a great dessert shop that he/she visited that he/she highly recommends.
