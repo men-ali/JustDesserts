@@ -3,7 +3,7 @@ body
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(../images/bg.jpg);
+  background: url(../images/coffee.jpg);
   background-repeat:no-repeat;
   background-size:cover;
 
@@ -60,6 +60,7 @@ body
 	margin-bottom: 20px;
 	width: 90px !important;
 	height: 90px !important;
+	border-radius: 100%
 }
 
 h3
@@ -124,7 +125,7 @@ h3
 	outline:none;
 	height: 40px;
 	font-size: 16px;
-	background: #ed292a;
+	background: #e55656;
 	color: #fff;
 	border-radius: 20px;
 	cursor: pointer;
