@@ -1,14 +1,17 @@
 const express = require('express');
 const models = require('../models');
-
+const path = require ('path');
+var app = express ();
 const router = express.Router();
 
+app.use('/static', express.static(__dirname + '/public'));
 
-router.get('/', (req, res) => {
-  res.json({
-    msg: "Successful GET to '/' route"
-  });
+app.get('/', function (req, res) {
+  //res.sendFile(path.join(__dirname+'/../justdesserts/public/index.html'));
+  res.sendFile(path.join(__dirname+'/index.html'));
 });
+
+
 
 router.post('/', (req, res) => {
   res.json({
@@ -30,5 +33,5 @@ router.delete('/:id', (req, res) => {
   });
 });
 
-
+app.listen(8000);
 module.exports = router;
